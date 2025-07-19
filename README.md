@@ -1,7 +1,7 @@
 
 # 📄 IntelliDoc QA System
 
-**IntelliDoc QA System is a multi-document RAG-based chatbot using LangChain and Google Gemini. It lets users upload PDFs or text, view chunked previews, get smart summaries, and ask context-aware questions with citations — all in an interactive Gradio UI.
+**IntelliDoc QA System** is a multi-document RAG-based chatbot using LangChain and Google Gemini. It lets users upload PDFs or text, view chunked previews, get smart summaries, and ask context-aware questions with citations — all in an interactive Gradio UI.
 
 Built with 🐍 Flask and Gradio, and integrated with 🧠 FAISS and 🤗 HuggingFace embeddings, the system delivers accurate, explainable, and responsive document understanding — ideal for 📚 legal, 🏫 academic, and 🏢 business workflows.
 
