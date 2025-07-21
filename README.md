@@ -151,17 +151,11 @@ python ui.py
 
 ## Screenshots
 
-> *(Replace the placeholders below with your actual Gradio UI screenshots once available)*
+![Image](https://github.com/user-attachments/assets/64572ce7-4c3d-4452-8c40-7c8294070159)
 
-![Upload File & Status](https://your-image-link.com/upload.png)
+![Image](https://github.com/user-attachments/assets/8a43d96a-ac11-440e-8541-db86af4e6f34)
 
-![File Summary & Metadata](https://your-image-link.com/summary.png)
-
-![Chunk Preview](https://your-image-link.com/chunks.png)
-
-![Ask Question](https://your-image-link.com/qa.png)
-
-![Cited Answer](https://your-image-link.com/answer_sources.png)
+![Image](https://github.com/user-attachments/assets/4b025942-7353-49f1-a5e2-bb1464e4bffb)
 
 ---
 
