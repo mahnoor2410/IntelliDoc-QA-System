@@ -104,7 +104,9 @@ def get_summary_for_file(file_id):
         return "No summary available."
 
     docs = [Document(page_content=chunk["text"]) for chunk in chunks]
-    chain = load_summarize_chain(llm, chain_type="map_reduce")
+
+    # map_reduce: each chunk's summary -> combine -> final summary
+    chain = load_summarize_chain(llm, chain_type="map_reduce") 
 
     try:
         summary = chain.run(docs)
@@ -154,6 +156,8 @@ def get_answer(file_id, question, chat_history):
         return "File not found.", [], chat_history
 
     db = FAISS.load_local(path, embeddings=embedding, allow_dangerous_deserialization=True)
+    
+    # retrieve top 4 chunk similar chunks for answering the question
     retriever = db.as_retriever(search_type="similarity", search_kwargs={"k": 4})
 
     qa_chain = RetrievalQA.from_chain_type(
