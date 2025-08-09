@@ -39,7 +39,7 @@ This AI-powered system allows users to upload and query multiple PDFs or text fi
 - ❓ **Question Answering**: Ask anything — get accurate, cited responses.
 - 🧷 **Citation & Chunk Preview**: Sources included with clickable context.
 - 💾 **Memory Tracking**: Keeps chat history per session & file.
-- 🔗 **Flask Backend API**: RESTful endpoints for upload, QA, chunks & summaries.
+- 🔗 **Flask Backend API**: RESTful endpoints for upload, QA, chunks and summaries.
 - 🧑‍💻 **Gradio Frontend**: UI with dropdowns, previews, and real-time answers.
 
 ---
