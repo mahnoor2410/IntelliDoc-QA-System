@@ -59,7 +59,7 @@ This AI-powered system allows users to upload and query multiple PDFs or text fi
 
 ## System Architecture
 
-- **🔁 Upload & Process**:
+- **🔁 Upload and Process**:
   1. User uploads a document via Gradio frontend.
   2. File saved locally, then parsed into text.
   3. Document is split into chunks and vectorized using embeddings.
