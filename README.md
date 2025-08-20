@@ -151,6 +151,11 @@ python ui.py
 
 ## Screenshots
 
+![Image](https://github.com/user-attachments/assets/64572ce7-4c3d-4452-8c40-7c8294070159)
+
+![Image](https://github.com/user-attachments/assets/8a43d96a-ac11-440e-8541-db86af4e6f34)
+
+![Image](https://github.com/user-attachments/assets/4b025942-7353-49f1-a5e2-bb1464e4bffb)
 
 ---
 
@@ -185,6 +190,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Gradio](https://www.gradio.app/)
 - [FAISS](https://github.com/facebookresearch/faiss)
 - [HuggingFace Embeddings](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+
 
 
 
