@@ -53,7 +53,7 @@ def update_dropdown():
 
 def get_summary_and_metadata(file_id):
     """
-    Retrieves summary and metadata for the selected file .
+    Retrieves summary and metadata for the selected file.
     """
     if not file_id:
         return "No file selected.", "No file selected."
